@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66F85245687FD4DDC9362510 /* Pods_egotter_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5E75F879D895DA39634826 /* Pods_egotter_iosTests.framework */; };
+		7E67C13612A119B52CCAC132 /* Pods_egotter_ios_egotter_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB7A5DFB7268245939A2C8C /* Pods_egotter_ios_egotter_iosUITests.framework */; };
+		9EAEE1E1C323A7419DD1E7F6 /* Pods_egotter_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9DC115E6891D93D8B2B13A /* Pods_egotter_ios.framework */; };
 		E11B6EFE23FA2A5900C00AA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6EFD23FA2A5900C00AA0 /* AppDelegate.swift */; };
 		E11B6F0023FA2A5900C00AA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6EFF23FA2A5900C00AA0 /* SceneDelegate.swift */; };
 		E11B6F0223FA2A5900C00AA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6F0123FA2A5900C00AA0 /* ContentView.swift */; };
@@ -15,6 +18,7 @@
 		E11B6F0A23FA2A5B00C00AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11B6F0823FA2A5B00C00AA0 /* LaunchScreen.storyboard */; };
 		E11B6F1523FA2A5B00C00AA0 /* egotter_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6F1423FA2A5B00C00AA0 /* egotter_iosTests.swift */; };
 		E11B6F2023FA2A5B00C00AA0 /* egotter_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6F1F23FA2A5B00C00AA0 /* egotter_iosUITests.swift */; };
+		E11B6F2F23FA2C3100C00AA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E11B6F2E23FA2C3100C00AA0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		116FC2FAD65F044FE520CE06 /* Pods-egotter_iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egotter_iosTests.debug.xcconfig"; path = "Target Support Files/Pods-egotter_iosTests/Pods-egotter_iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AEDA2E6CCB2F6B924F8ACAA /* Pods-egotter_iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egotter_iosTests.release.xcconfig"; path = "Target Support Files/Pods-egotter_iosTests/Pods-egotter_iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A64E920A427E10FF5B9BC08 /* Pods-egotter_ios-egotter_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egotter_ios-egotter_iosUITests.release.xcconfig"; path = "Target Support Files/Pods-egotter_ios-egotter_iosUITests/Pods-egotter_ios-egotter_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8BB7A5DFB7268245939A2C8C /* Pods_egotter_ios_egotter_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egotter_ios_egotter_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933E10F22A7B935D99D18E8C /* Pods-egotter_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egotter_ios.release.xcconfig"; path = "Target Support Files/Pods-egotter_ios/Pods-egotter_ios.release.xcconfig"; sourceTree = "<group>"; };
+		95223B87EB88CD643DC533E7 /* Pods-egotter_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egotter_ios.debug.xcconfig"; path = "Target Support Files/Pods-egotter_ios/Pods-egotter_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		BC5E75F879D895DA39634826 /* Pods_egotter_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egotter_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11B6EFA23FA2A5900C00AA0 /* egotter_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = egotter_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11B6EFD23FA2A5900C00AA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E11B6EFF23FA2A5900C00AA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,10 @@
 		E11B6F1B23FA2A5B00C00AA0 /* egotter_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = egotter_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11B6F1F23FA2A5B00C00AA0 /* egotter_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egotter_iosUITests.swift; sourceTree = "<group>"; };
 		E11B6F2123FA2A5B00C00AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11B6F2D23FA2AE600C00AA0 /* egotter_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = egotter_ios.entitlements; sourceTree = "<group>"; };
+		E11B6F2E23FA2C3100C00AA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E66EADC4D18DC68BFFE608BC /* Pods-egotter_ios-egotter_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egotter_ios-egotter_iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-egotter_ios-egotter_iosUITests/Pods-egotter_ios-egotter_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA9DC115E6891D93D8B2B13A /* Pods_egotter_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egotter_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EAEE1E1C323A7419DD1E7F6 /* Pods_egotter_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F85245687FD4DDC9362510 /* Pods_egotter_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +87,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E67C13612A119B52CCAC132 /* Pods_egotter_ios_egotter_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		978906B893DC57D33930DD71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95223B87EB88CD643DC533E7 /* Pods-egotter_ios.debug.xcconfig */,
+				933E10F22A7B935D99D18E8C /* Pods-egotter_ios.release.xcconfig */,
+				E66EADC4D18DC68BFFE608BC /* Pods-egotter_ios-egotter_iosUITests.debug.xcconfig */,
+				8A64E920A427E10FF5B9BC08 /* Pods-egotter_ios-egotter_iosUITests.release.xcconfig */,
+				116FC2FAD65F044FE520CE06 /* Pods-egotter_iosTests.debug.xcconfig */,
+				2AEDA2E6CCB2F6B924F8ACAA /* Pods-egotter_iosTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		997B7E47C99B1479E4565AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DC115E6891D93D8B2B13A /* Pods_egotter_ios.framework */,
+				8BB7A5DFB7268245939A2C8C /* Pods_egotter_ios_egotter_iosUITests.framework */,
+				BC5E75F879D895DA39634826 /* Pods_egotter_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E11B6EF123FA2A5900C00AA0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				E11B6F1323FA2A5B00C00AA0 /* egotter_iosTests */,
 				E11B6F1E23FA2A5B00C00AA0 /* egotter_iosUITests */,
 				E11B6EFB23FA2A5900C00AA0 /* Products */,
+				978906B893DC57D33930DD71 /* Pods */,
+				997B7E47C99B1479E4565AA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +143,8 @@
 		E11B6EFC23FA2A5900C00AA0 /* egotter_ios */ = {
 			isa = PBXGroup;
 			children = (
+				E11B6F2E23FA2C3100C00AA0 /* GoogleService-Info.plist */,
+				E11B6F2D23FA2AE600C00AA0 /* egotter_ios.entitlements */,
 				E11B6EFD23FA2A5900C00AA0 /* AppDelegate.swift */,
 				E11B6EFF23FA2A5900C00AA0 /* SceneDelegate.swift */,
 				E11B6F0123FA2A5900C00AA0 /* ContentView.swift */,
@@ -143,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E11B6F2423FA2A5B00C00AA0 /* Build configuration list for PBXNativeTarget "egotter_ios" */;
 			buildPhases = (
+				8EFE0A54ECB178FABC3FAAC1 /* [CP] Check Pods Manifest.lock */,
 				E11B6EF623FA2A5900C00AA0 /* Sources */,
 				E11B6EF723FA2A5900C00AA0 /* Frameworks */,
 				E11B6EF823FA2A5900C00AA0 /* Resources */,
+				F708926BA3EA834543621216 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E11B6F2723FA2A5B00C00AA0 /* Build configuration list for PBXNativeTarget "egotter_iosTests" */;
 			buildPhases = (
+				7945FC4226490A1DBB84EA65 /* [CP] Check Pods Manifest.lock */,
 				E11B6F0C23FA2A5B00C00AA0 /* Sources */,
 				E11B6F0D23FA2A5B00C00AA0 /* Frameworks */,
 				E11B6F0E23FA2A5B00C00AA0 /* Resources */,
@@ -178,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E11B6F2A23FA2A5B00C00AA0 /* Build configuration list for PBXNativeTarget "egotter_iosUITests" */;
 			buildPhases = (
+				FA4A9E103B54EE05B2409802 /* [CP] Check Pods Manifest.lock */,
 				E11B6F1723FA2A5B00C00AA0 /* Sources */,
 				E11B6F1823FA2A5B00C00AA0 /* Frameworks */,
 				E11B6F1923FA2A5B00C00AA0 /* Resources */,
+				0CC2996BFC7DBEE80DAD455E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11B6F0A23FA2A5B00C00AA0 /* LaunchScreen.storyboard in Resources */,
+				E11B6F2F23FA2C3100C00AA0 /* GoogleService-Info.plist in Resources */,
 				E11B6F0723FA2A5B00C00AA0 /* Preview Assets.xcassets in Resources */,
 				E11B6F0423FA2A5B00C00AA0 /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +313,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CC2996BFC7DBEE80DAD455E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-egotter_ios-egotter_iosUITests/Pods-egotter_ios-egotter_iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-egotter_ios-egotter_iosUITests/Pods-egotter_ios-egotter_iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-egotter_ios-egotter_iosUITests/Pods-egotter_ios-egotter_iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7945FC4226490A1DBB84EA65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-egotter_iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFE0A54ECB178FABC3FAAC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-egotter_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F708926BA3EA834543621216 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-egotter_ios/Pods-egotter_ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-egotter_ios/Pods-egotter_ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-egotter_ios/Pods-egotter_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA4A9E103B54EE05B2409802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-egotter_ios-egotter_iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E11B6EF623FA2A5900C00AA0 /* Sources */ = {
@@ -432,8 +587,10 @@
 		};
 		E11B6F2523FA2A5B00C00AA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95223B87EB88CD643DC533E7 /* Pods-egotter_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = egotter_ios/egotter_ios.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"egotter_ios/Preview Content\"";
 				DEVELOPMENT_TEAM = DETWXCT7P3;
@@ -452,8 +609,10 @@
 		};
 		E11B6F2623FA2A5B00C00AA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933E10F22A7B935D99D18E8C /* Pods-egotter_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = egotter_ios/egotter_ios.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"egotter_ios/Preview Content\"";
 				DEVELOPMENT_TEAM = DETWXCT7P3;
@@ -472,6 +631,7 @@
 		};
 		E11B6F2823FA2A5B00C00AA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116FC2FAD65F044FE520CE06 /* Pods-egotter_iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +654,7 @@
 		};
 		E11B6F2923FA2A5B00C00AA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AEDA2E6CCB2F6B924F8ACAA /* Pods-egotter_iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +677,7 @@
 		};
 		E11B6F2B23FA2A5B00C00AA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66EADC4D18DC68BFFE608BC /* Pods-egotter_ios-egotter_iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +698,7 @@
 		};
 		E11B6F2C23FA2A5B00C00AA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A64E920A427E10FF5B9BC08 /* Pods-egotter_ios-egotter_iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
