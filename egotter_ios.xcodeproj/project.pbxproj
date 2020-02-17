@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E11B6EFE23FA2A5900C00AA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6EFD23FA2A5900C00AA0 /* AppDelegate.swift */; };
+		E11B6F0023FA2A5900C00AA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6EFF23FA2A5900C00AA0 /* SceneDelegate.swift */; };
+		E11B6F0223FA2A5900C00AA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6F0123FA2A5900C00AA0 /* ContentView.swift */; };
+		E11B6F0423FA2A5B00C00AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11B6F0323FA2A5B00C00AA0 /* Assets.xcassets */; };
+		E11B6F0723FA2A5B00C00AA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11B6F0623FA2A5B00C00AA0 /* Preview Assets.xcassets */; };
+		E11B6F0A23FA2A5B00C00AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11B6F0823FA2A5B00C00AA0 /* LaunchScreen.storyboard */; };
+		E11B6F1523FA2A5B00C00AA0 /* egotter_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6F1423FA2A5B00C00AA0 /* egotter_iosTests.swift */; };
+		E11B6F2023FA2A5B00C00AA0 /* egotter_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6F1F23FA2A5B00C00AA0 /* egotter_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E11B6F1123FA2A5B00C00AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11B6EF223FA2A5900C00AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11B6EF923FA2A5900C00AA0;
+			remoteInfo = egotter_ios;
+		};
+		E11B6F1C23FA2A5B00C00AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11B6EF223FA2A5900C00AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11B6EF923FA2A5900C00AA0;
+			remoteInfo = egotter_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E11B6EFA23FA2A5900C00AA0 /* egotter_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = egotter_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11B6EFD23FA2A5900C00AA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E11B6EFF23FA2A5900C00AA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E11B6F0123FA2A5900C00AA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E11B6F0323FA2A5B00C00AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E11B6F0623FA2A5B00C00AA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E11B6F0923FA2A5B00C00AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E11B6F0B23FA2A5B00C00AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11B6F1023FA2A5B00C00AA0 /* egotter_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = egotter_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11B6F1423FA2A5B00C00AA0 /* egotter_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egotter_iosTests.swift; sourceTree = "<group>"; };
+		E11B6F1623FA2A5B00C00AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11B6F1B23FA2A5B00C00AA0 /* egotter_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = egotter_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11B6F1F23FA2A5B00C00AA0 /* egotter_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egotter_iosUITests.swift; sourceTree = "<group>"; };
+		E11B6F2123FA2A5B00C00AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11B6EF723FA2A5900C00AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11B6F0D23FA2A5B00C00AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11B6F1823FA2A5B00C00AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E11B6EF123FA2A5900C00AA0 = {
+			isa = PBXGroup;
+			children = (
+				E11B6EFC23FA2A5900C00AA0 /* egotter_ios */,
+				E11B6F1323FA2A5B00C00AA0 /* egotter_iosTests */,
+				E11B6F1E23FA2A5B00C00AA0 /* egotter_iosUITests */,
+				E11B6EFB23FA2A5900C00AA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E11B6EFB23FA2A5900C00AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11B6EFA23FA2A5900C00AA0 /* egotter_ios.app */,
+				E11B6F1023FA2A5B00C00AA0 /* egotter_iosTests.xctest */,
+				E11B6F1B23FA2A5B00C00AA0 /* egotter_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11B6EFC23FA2A5900C00AA0 /* egotter_ios */ = {
+			isa = PBXGroup;
+			children = (
+				E11B6EFD23FA2A5900C00AA0 /* AppDelegate.swift */,
+				E11B6EFF23FA2A5900C00AA0 /* SceneDelegate.swift */,
+				E11B6F0123FA2A5900C00AA0 /* ContentView.swift */,
+				E11B6F0323FA2A5B00C00AA0 /* Assets.xcassets */,
+				E11B6F0823FA2A5B00C00AA0 /* LaunchScreen.storyboard */,
+				E11B6F0B23FA2A5B00C00AA0 /* Info.plist */,
+				E11B6F0523FA2A5B00C00AA0 /* Preview Content */,
+			);
+			path = egotter_ios;
+			sourceTree = "<group>";
+		};
+		E11B6F0523FA2A5B00C00AA0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E11B6F0623FA2A5B00C00AA0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E11B6F1323FA2A5B00C00AA0 /* egotter_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E11B6F1423FA2A5B00C00AA0 /* egotter_iosTests.swift */,
+				E11B6F1623FA2A5B00C00AA0 /* Info.plist */,
+			);
+			path = egotter_iosTests;
+			sourceTree = "<group>";
+		};
+		E11B6F1E23FA2A5B00C00AA0 /* egotter_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E11B6F1F23FA2A5B00C00AA0 /* egotter_iosUITests.swift */,
+				E11B6F2123FA2A5B00C00AA0 /* Info.plist */,
+			);
+			path = egotter_iosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11B6EF923FA2A5900C00AA0 /* egotter_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11B6F2423FA2A5B00C00AA0 /* Build configuration list for PBXNativeTarget "egotter_ios" */;
+			buildPhases = (
+				E11B6EF623FA2A5900C00AA0 /* Sources */,
+				E11B6EF723FA2A5900C00AA0 /* Frameworks */,
+				E11B6EF823FA2A5900C00AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = egotter_ios;
+			productName = egotter_ios;
+			productReference = E11B6EFA23FA2A5900C00AA0 /* egotter_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E11B6F0F23FA2A5B00C00AA0 /* egotter_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11B6F2723FA2A5B00C00AA0 /* Build configuration list for PBXNativeTarget "egotter_iosTests" */;
+			buildPhases = (
+				E11B6F0C23FA2A5B00C00AA0 /* Sources */,
+				E11B6F0D23FA2A5B00C00AA0 /* Frameworks */,
+				E11B6F0E23FA2A5B00C00AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E11B6F1223FA2A5B00C00AA0 /* PBXTargetDependency */,
+			);
+			name = egotter_iosTests;
+			productName = egotter_iosTests;
+			productReference = E11B6F1023FA2A5B00C00AA0 /* egotter_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E11B6F1A23FA2A5B00C00AA0 /* egotter_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11B6F2A23FA2A5B00C00AA0 /* Build configuration list for PBXNativeTarget "egotter_iosUITests" */;
+			buildPhases = (
+				E11B6F1723FA2A5B00C00AA0 /* Sources */,
+				E11B6F1823FA2A5B00C00AA0 /* Frameworks */,
+				E11B6F1923FA2A5B00C00AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E11B6F1D23FA2A5B00C00AA0 /* PBXTargetDependency */,
+			);
+			name = egotter_iosUITests;
+			productName = egotter_iosUITests;
+			productReference = E11B6F1B23FA2A5B00C00AA0 /* egotter_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E11B6EF223FA2A5900C00AA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Teruki Shinohara";
+				TargetAttributes = {
+					E11B6EF923FA2A5900C00AA0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E11B6F0F23FA2A5B00C00AA0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E11B6EF923FA2A5900C00AA0;
+					};
+					E11B6F1A23FA2A5B00C00AA0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E11B6EF923FA2A5900C00AA0;
+					};
+				};
+			};
+			buildConfigurationList = E11B6EF523FA2A5900C00AA0 /* Build configuration list for PBXProject "egotter_ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E11B6EF123FA2A5900C00AA0;
+			productRefGroup = E11B6EFB23FA2A5900C00AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E11B6EF923FA2A5900C00AA0 /* egotter_ios */,
+				E11B6F0F23FA2A5B00C00AA0 /* egotter_iosTests */,
+				E11B6F1A23FA2A5B00C00AA0 /* egotter_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E11B6EF823FA2A5900C00AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11B6F0A23FA2A5B00C00AA0 /* LaunchScreen.storyboard in Resources */,
+				E11B6F0723FA2A5B00C00AA0 /* Preview Assets.xcassets in Resources */,
+				E11B6F0423FA2A5B00C00AA0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11B6F0E23FA2A5B00C00AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11B6F1923FA2A5B00C00AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E11B6EF623FA2A5900C00AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11B6EFE23FA2A5900C00AA0 /* AppDelegate.swift in Sources */,
+				E11B6F0023FA2A5900C00AA0 /* SceneDelegate.swift in Sources */,
+				E11B6F0223FA2A5900C00AA0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11B6F0C23FA2A5B00C00AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11B6F1523FA2A5B00C00AA0 /* egotter_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11B6F1723FA2A5B00C00AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11B6F2023FA2A5B00C00AA0 /* egotter_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E11B6F1223FA2A5B00C00AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11B6EF923FA2A5900C00AA0 /* egotter_ios */;
+			targetProxy = E11B6F1123FA2A5B00C00AA0 /* PBXContainerItemProxy */;
+		};
+		E11B6F1D23FA2A5B00C00AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11B6EF923FA2A5900C00AA0 /* egotter_ios */;
+			targetProxy = E11B6F1C23FA2A5B00C00AA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E11B6F0823FA2A5B00C00AA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11B6F0923FA2A5B00C00AA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E11B6F2223FA2A5B00C00AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E11B6F2323FA2A5B00C00AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E11B6F2523FA2A5B00C00AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"egotter_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = DETWXCT7P3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = egotter_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egotter.egotter-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E11B6F2623FA2A5B00C00AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"egotter_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = DETWXCT7P3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = egotter_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egotter.egotter-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E11B6F2823FA2A5B00C00AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DETWXCT7P3;
+				INFOPLIST_FILE = egotter_iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egotter.egotter-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/egotter_ios.app/egotter_ios";
+			};
+			name = Debug;
+		};
+		E11B6F2923FA2A5B00C00AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DETWXCT7P3;
+				INFOPLIST_FILE = egotter_iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egotter.egotter-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/egotter_ios.app/egotter_ios";
+			};
+			name = Release;
+		};
+		E11B6F2B23FA2A5B00C00AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DETWXCT7P3;
+				INFOPLIST_FILE = egotter_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egotter.egotter-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = egotter_ios;
+			};
+			name = Debug;
+		};
+		E11B6F2C23FA2A5B00C00AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DETWXCT7P3;
+				INFOPLIST_FILE = egotter_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egotter.egotter-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = egotter_ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E11B6EF523FA2A5900C00AA0 /* Build configuration list for PBXProject "egotter_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11B6F2223FA2A5B00C00AA0 /* Debug */,
+				E11B6F2323FA2A5B00C00AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11B6F2423FA2A5B00C00AA0 /* Build configuration list for PBXNativeTarget "egotter_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11B6F2523FA2A5B00C00AA0 /* Debug */,
+				E11B6F2623FA2A5B00C00AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11B6F2723FA2A5B00C00AA0 /* Build configuration list for PBXNativeTarget "egotter_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11B6F2823FA2A5B00C00AA0 /* Debug */,
+				E11B6F2923FA2A5B00C00AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11B6F2A23FA2A5B00C00AA0 /* Build configuration list for PBXNativeTarget "egotter_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11B6F2B23FA2A5B00C00AA0 /* Debug */,
+				E11B6F2C23FA2A5B00C00AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E11B6EF223FA2A5900C00AA0 /* Project object */;
+}
