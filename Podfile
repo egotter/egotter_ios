@@ -7,6 +7,7 @@ target 'egotter_ios' do
 
   # Pods for egotter_ios
   pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
 
   target 'egotter_iosTests' do
     inherit! :search_paths

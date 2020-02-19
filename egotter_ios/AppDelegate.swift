@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseAuth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,21 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
         FirebaseApp.configure()
-
-        sendDeviceTokenToServer("token") // TODO Remove
-
-        let center = UNUserNotificationCenter.current()
-        center.requestAuthorization(options: [.alert, .sound]) { granted, error in
-            print("Permission granted: \(granted)")
-            guard granted else { return }
-
-            if (granted) {
-                DispatchQueue.main.async {
-                    UIApplication.shared.registerForRemoteNotifications()
-                }
-            }
-        }
+        getDeviceToken()
 
         return true
     }
@@ -41,60 +30,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         let token = tokenParts.joined()
         print("Device Token: \(token)")
-        sendDeviceTokenToServer(token)
+        saveDeviceToken(token)
     }
 
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         print("Failed to register for remote notifications: \(error)")
     }
 
-    func sendDeviceTokenToServer(_ token: String) {
-        // let url = URL(string: "https://egotter.com/api/v1/users/update_device_token")
-        let url = URL(string: "http://192.168.11.2:3000/api/v1/users/update_device_token")
+    func getDeviceToken() {
+        let center = UNUserNotificationCenter.current()
+        center.requestAuthorization(options: [.alert, .sound]) { granted, error in
+            print("Permission granted: \(granted)")
 
-        guard let requestUrl = url else { fatalError() }
-        var request = URLRequest(url: requestUrl)
-
-        request.httpMethod = "POST"
-        request.setValue("application/json", forHTTPHeaderField: "Accept")
-        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-
-        let params:[String:Any] = [
-            "uid": "12345",
-            "access_token": "",
-            "access_secret": "",
-            "device_token": token
-        ]
-
-        do {
-            request.httpBody = try JSONSerialization.data(withJSONObject: params)
-        } catch {
-            print("Failed to serialize data: \(error)")
-            return
-        }
-
-        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
-
-            if let error = error {
-                print("Failed to send device token: \(error)")
-                return
-            }
-
-            if let data = data, let dataString = String(data: data, encoding: .utf8) {
-                print("Response data string: \(dataString)")
-
-                do {
-                    let dic = try JSONSerialization.jsonObject(with: data) as! [String: Any]
-                    print("found \(dic["found"] as! Bool)")
-                } catch {
-                    print("Failed to deserialize response: \(error)")
-                    return
+            if (granted) {
+                DispatchQueue.main.async {
+                    UIApplication.shared.registerForRemoteNotifications()
                 }
             }
-
         }
+    }
 
-        task.resume()
+    func saveDeviceToken(_ token: String) {
+        UserDefaults.standard.set(token, forKey: "apn_device_token")
     }
 
     // MARK: UISceneSession Lifecycle

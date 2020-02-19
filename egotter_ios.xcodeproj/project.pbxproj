@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,8 @@
 		E11B6F1523FA2A5B00C00AA0 /* egotter_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6F1423FA2A5B00C00AA0 /* egotter_iosTests.swift */; };
 		E11B6F2023FA2A5B00C00AA0 /* egotter_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B6F1F23FA2A5B00C00AA0 /* egotter_iosUITests.swift */; };
 		E11B6F2F23FA2C3100C00AA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E11B6F2E23FA2C3100C00AA0 /* GoogleService-Info.plist */; };
+		E181952423FDBA01006010F7 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181952323FDBA01006010F7 /* ApiClient.swift */; };
+		E181952623FDC58B006010F7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181952523FDC58B006010F7 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		E11B6F2123FA2A5B00C00AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E11B6F2D23FA2AE600C00AA0 /* egotter_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = egotter_ios.entitlements; sourceTree = "<group>"; };
 		E11B6F2E23FA2C3100C00AA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E181952323FDBA01006010F7 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		E181952523FDC58B006010F7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E66EADC4D18DC68BFFE608BC /* Pods-egotter_ios-egotter_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egotter_ios-egotter_iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-egotter_ios-egotter_iosUITests/Pods-egotter_ios-egotter_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA9DC115E6891D93D8B2B13A /* Pods_egotter_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egotter_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,7 +108,6 @@
 				116FC2FAD65F044FE520CE06 /* Pods-egotter_iosTests.debug.xcconfig */,
 				2AEDA2E6CCB2F6B924F8ACAA /* Pods-egotter_iosTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +155,8 @@
 				E11B6F0823FA2A5B00C00AA0 /* LaunchScreen.storyboard */,
 				E11B6F0B23FA2A5B00C00AA0 /* Info.plist */,
 				E11B6F0523FA2A5B00C00AA0 /* Preview Content */,
+				E181952323FDBA01006010F7 /* ApiClient.swift */,
+				E181952523FDC58B006010F7 /* User.swift */,
 			);
 			path = egotter_ios;
 			sourceTree = "<group>";
@@ -425,6 +430,8 @@
 				E11B6EFE23FA2A5900C00AA0 /* AppDelegate.swift in Sources */,
 				E11B6F0023FA2A5900C00AA0 /* SceneDelegate.swift in Sources */,
 				E11B6F0223FA2A5900C00AA0 /* ContentView.swift in Sources */,
+				E181952623FDC58B006010F7 /* User.swift in Sources */,
+				E181952423FDBA01006010F7 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +598,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = egotter_ios/egotter_ios.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"egotter_ios/Preview Content\"";
 				DEVELOPMENT_TEAM = DETWXCT7P3;
@@ -602,6 +610,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.egotter.egotter-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -613,6 +622,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = egotter_ios/egotter_ios.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"egotter_ios/Preview Content\"";
 				DEVELOPMENT_TEAM = DETWXCT7P3;
@@ -624,6 +634,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.egotter.egotter-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
