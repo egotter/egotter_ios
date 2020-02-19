@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  egotter_ios
+
+  Created by Teruki Shinohara on 2020/02/20.
+  Copyright © 2020 Teruki Shinohara. All rights reserved.
+*/
+
+"signInWithTwitter" = "Sign in with Twitter";
+"termsOfService" = "Terms of service";
+"privacyPolicy" = "Privacy policy";

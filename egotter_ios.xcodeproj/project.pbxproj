@@ -21,6 +21,7 @@
 		E11B6F2F23FA2C3100C00AA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E11B6F2E23FA2C3100C00AA0 /* GoogleService-Info.plist */; };
 		E181952423FDBA01006010F7 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181952323FDBA01006010F7 /* ApiClient.swift */; };
 		E181952623FDC58B006010F7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181952523FDC58B006010F7 /* User.swift */; };
+		E181952C23FDE1EA006010F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E181952E23FDE1EA006010F7 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,9 @@
 		E11B6F2E23FA2C3100C00AA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E181952323FDBA01006010F7 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		E181952523FDC58B006010F7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E181952D23FDE1EA006010F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E181952F23FDE238006010F7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E181953023FDE239006010F7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E66EADC4D18DC68BFFE608BC /* Pods-egotter_ios-egotter_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egotter_ios-egotter_iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-egotter_ios-egotter_iosUITests/Pods-egotter_ios-egotter_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA9DC115E6891D93D8B2B13A /* Pods_egotter_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egotter_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -146,6 +150,7 @@
 		E11B6EFC23FA2A5900C00AA0 /* egotter_ios */ = {
 			isa = PBXGroup;
 			children = (
+				E181952E23FDE1EA006010F7 /* Localizable.strings */,
 				E11B6F2E23FA2C3100C00AA0 /* GoogleService-Info.plist */,
 				E11B6F2D23FA2AE600C00AA0 /* egotter_ios.entitlements */,
 				E11B6EFD23FA2A5900C00AA0 /* AppDelegate.swift */,
@@ -278,6 +283,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = E11B6EF123FA2A5900C00AA0;
 			productRefGroup = E11B6EFB23FA2A5900C00AA0 /* Products */;
@@ -296,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E181952C23FDE1EA006010F7 /* Localizable.strings in Resources */,
 				E11B6F0A23FA2A5B00C00AA0 /* LaunchScreen.storyboard in Resources */,
 				E11B6F2F23FA2C3100C00AA0 /* GoogleService-Info.plist in Resources */,
 				E11B6F0723FA2A5B00C00AA0 /* Preview Assets.xcassets in Resources */,
@@ -471,9 +478,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				E11B6F0923FA2A5B00C00AA0 /* Base */,
+				E181952F23FDE238006010F7 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
+		};
+		E181952E23FDE1EA006010F7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E181952D23FDE1EA006010F7 /* en */,
+				E181953023FDE239006010F7 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -482,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -542,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

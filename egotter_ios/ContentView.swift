@@ -10,15 +10,36 @@ import SwiftUI
 import FirebaseAuth
 
 struct ContentView: View {
-    @State var text = "Sign in with Twitter"
+    @State var text = NSLocalizedString("signInWithTwitter", comment: "")
 
     var body: some View {
         VStack {
-            Text(text)
+            Image("egotter500x500")
+                .resizable()
+                .scaledToFit()
+                .padding(.top)
+                .padding(.bottom)
             Button(action: {
                 signInWithTwitter()
             }) {
-                Text("Press")
+                Text(text)
+            }
+            Spacer()
+            Button(action: {
+                let url = URL(string: "https://egotter.com/terms_of_service?via=ios_dev")!
+                UIApplication.shared.open(url)
+            }) {
+                Text("termsOfService")
+                    .foregroundColor(Color.gray)
+                    .padding(.bottom)
+            }
+            Button(action: {
+                let url = URL(string: "https://egotter.com/privacy_policy?via=ios_dev")!
+                UIApplication.shared.open(url)
+            }) {
+                Text("privacyPolicy")
+                    .foregroundColor(Color.gray)
+                    .padding(.bottom)
             }
         }
     }
@@ -85,6 +106,14 @@ func sendDeviceTokenToServer() {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+           ContentView()
+              .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
+              .previewDisplayName("iPhone SE")
+
+           ContentView()
+              .previewDevice(PreviewDevice(rawValue: "iPhone 11"))
+              .previewDisplayName("iPhone 11")
+        }
     }
 }
